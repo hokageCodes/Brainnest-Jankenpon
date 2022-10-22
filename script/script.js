@@ -2,13 +2,13 @@ let playerScore = 0
 let computerScore = 0
 let selection = ["rock", "paper", "scissors"];
 
-let rockButton = document.getElementById('rock');
-let paperButton = document.getElementById('paper');
-let scissorsButton = document.getElementById('scissors');
-let commentary = document.getElementById('commentary');
-let playerScoreboard = document.getElementById('player-score');
-let computerScoreboard = document.getElementById('computer-score');
-let reset = document.getElementById('reset-game');
+const rockButton = document.getElementById('rock');
+const paperButton = document.getElementById('paper');
+const scissorsButton = document.getElementById('scissors');
+const commentary = document.getElementById('commentary');
+const playerScoreboard = document.getElementById('player-score');
+const computerScoreboard = document.getElementById('computer-score');
+const reset = document.getElementById('reset-game');
 
 reset.addEventListener('click', resetGame);
 rockButton.addEventListener('click', playGameRock);
