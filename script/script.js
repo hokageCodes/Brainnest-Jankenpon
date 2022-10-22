@@ -1,5 +1,3 @@
-//Coded by Kasugaijin Jan, 2022 for the Odin Project - version 2
-
 let playerScore = 0
 let computerScore = 0
 let selection = ["rock", "paper", "scissors"];
