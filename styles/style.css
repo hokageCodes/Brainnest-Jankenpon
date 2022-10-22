@@ -23,7 +23,6 @@ p {
     color: white;
   }
 
-
 #title {
     padding-top: 80px;
     width: 500px;
@@ -39,35 +38,19 @@ p {
     margin-bottom: 30px;
 }
 
-#intro {
-    width: 895px;
-    font-size: 22px;
-    font-weight: bold;
-    color: rgb(139, 156, 235);
-    font-family: monospace;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .05em solid rgb(255, 0, 221); /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .10em; /* Adjust as needed */
-    animation: 
-      typing 5.5s steps(60, end),
-      blink-caret 0.75s step-end infinite;
-  }
+#buttons {
+   padding: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+ }
 
-  #buttons {
-    padding: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-  }
-
-  #button-img {
-    width: 90px;
-    height: 90px;
-    object-fit:cover; /*this property does the magic*/
-    border-radius:20%;
+ #button-img {
+   width: 90px;
+   height: 90px;
+   object-fit:cover; /*this property does the magic*/
+   border-radius:20%;
   }
   
   #rock, #paper, #scissors {
